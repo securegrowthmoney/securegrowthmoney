@@ -1399,14 +1399,26 @@ a:focus {
 }
 
 @media (max-width: 575.98px) {
+    /* .volunteer{
+        
+    } */
+
     .event .event-content {
         flex-direction: column;
     }
-    
-    .event .event-meta {
-        flex-direction: row;
+
+    .facts .container{
+        background-color: #00000085;
+    }
+
+    .volunteer .container{
+        background-color: #00000085;
     }
     
+   /* .event .event-meta {
+         flex-direction: row; 
+    }
+    */
     .event .event-meta p {
         font-size: 14px;
         padding-right: 7px;
